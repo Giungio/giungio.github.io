@@ -5,6 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Il mio sito su GitHub</title>
     <style>
+        .guides-section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.guides-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.guide-item {
+    border-left: 4px solid #2ecc71;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.category {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #2ecc71;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.guide-item h3 {
+    margin: 5px 0;
+    color: #333;
+}
+
+.guide-item a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.guide-item a:hover {
+    text-decoration: underline;
+}
         .site-header {
     padding: 20px 0;
     text-align: center; /* Centra il logo */
@@ -33,6 +75,26 @@
 </header>
 </html>
 <section id="progetti" class="projects-section">
+    <section id="guide" class="guides-section">
+    <h2>Guide & Tutorial</h2>
+    <div class="guides-list">
+        <!-- Guida 1 -->
+        <article class="guide-item">
+            <span class="category">HTML</span>
+            <h3>Come strutturare una pagina</h3>
+            <p>I segreti per un codice semantico e accessibile a tutti.</p>
+            <a href="URL_GUIDA">Leggi di più →</a>
+        </article>
+
+        <!-- Guida 2 -->
+        <article class="guide-item">
+            <span class="category">CSS</span>
+            <h3>Guida ai Flexbox</h3>
+            <p>Impara a creare layout moderni e responsivi in pochi minuti.</p>
+            <a href="URL_GUIDA">Leggi di più →</a>
+        </article>
+    </div>
+</section>
     <h2>I Miei Progetti</h2>
     <div class="projects-grid">
         <!-- Progetto 1 -->
