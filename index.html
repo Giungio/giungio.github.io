@@ -5,12 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Il mio sito su GitHub</title>
     <style>
+        .site-header {
+    padding: 20px 0;
+    text-align: center; /* Centra il logo */
+    background-color: #fff; /* Colore di sfondo opzionale */
+}
+
+.main-logo {
+    max-height: 80px; /* Regola la grandezza del logo */
+    width: auto;
+    transition: transform 0.3s;
+}
+
+.main-logo:hover {
+    transform: scale(1.05); /* Effetto leggero al passaggio del mouse */
+}
         body { font-family: sans-serif; text-align: center; padding-top: 50px; }
         h1 { color: #2ecc71; }
     </style>
     <h1>Sito di giungio814</h1>
     <p>Questo è il sito di giungio814.</p>
 </body>
+    <header class="site-header">
+    <a href="index.html">
+        <img src="giungio814.png" alt="Logo" class="main-logo">
+    </a>
+</header>
 </html>
 <section id="progetti" class="projects-section">
     <h2>I Miei Progetti</h2>
